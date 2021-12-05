@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+body {}
+
+/* 공통사항 */
+.container {
+    position: relative;
+    display: block;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.wrap {
+    position: relative;
+    display: block;
+}
+
+.section{
+    width: 1920px;
+    height: 100%;
+}
+
+.section-01 {
+    height: 957px;
+    background: url('../images/section_01.png') no-repeat center;
+}
+
+.section-02 {
+    height: 1138px;
+    background: url('../images/section_02.png') no-repeat center;
+
+}
+
+.section-03 {
+    height: 1063px;
+    background: url('../images/section_03.png') no-repeat center;
+
+}
+
+.section-04 {
+    height: 695px;
+    background: url('../images/section_04.png') no-repeat center;
+
+}
